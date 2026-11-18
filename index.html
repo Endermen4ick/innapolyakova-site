@@ -195,6 +195,80 @@ p{margin:0}
 .groups ul.points li{padding-left:22px;position:relative;font-size:.98rem}
 .groups ul.points li::before{content:"";position:absolute;left:2px;top:.55em;width:8px;height:8px;border-radius:50%;background:var(--warm)}
 
+/* «Живая сексуальность»: black, milk and deep burgundy inside the Groups section */
+.zs{--ink:#0E0C0C;--milk:#F3EDE4;--wine:#6E1423;--wine-2:#8A1C2E;--soft:rgba(243,237,228,.64);--ln:rgba(243,237,228,.16);
+  margin-top:64px;background:var(--ink);color:var(--milk);border-radius:30px;overflow:hidden;scroll-margin-top:70px}
+.zs .in{padding:clamp(36px,6vw,80px) clamp(24px,5vw,72px)}
+.zs .lbl{font-size:.8rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
+.zs .soft{color:var(--soft)}
+.zs h3.big{font-size:clamp(2.6rem,7vw,6rem);font-weight:700;letter-spacing:-.06em;line-height:.92;margin-top:18px}
+.zs h3.big span{display:block}
+.zs h3.big span+span{color:#B23A4C}
+.zs h4{margin:0;font-size:clamp(1.8rem,3.6vw,2.8rem);font-weight:600;letter-spacing:-.04em;line-height:1.05}
+.zs .top{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:clamp(28px,5vw,64px);align-items:end}
+.zs .top figure{margin:0;border-radius:18px;overflow:hidden}
+.zs .top figure img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 15%}
+.zs .words{margin-top:26px;font-size:clamp(1.1rem,1.9vw,1.45rem);font-weight:500}
+.zs .facts{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0;padding:0;list-style:none}
+.zs .facts li{border:1px solid var(--ln);border-radius:999px;padding:8px 15px;font-size:.93rem}
+.zs .facts li.pr{background:var(--milk);color:var(--ink);border-color:var(--milk);font-weight:600}
+.zs .zbtn{display:inline-flex;align-items:center;gap:10px;margin-top:32px;border-radius:999px;padding:15px 26px;font-size:1rem;font-weight:500;background:var(--wine);color:var(--milk);transition:background-color .25s}
+.zs .zbtn:hover{background:var(--wine-2)}
+.zs .zbtn.light{background:var(--milk);color:var(--ink)}
+.zs .zbtn::after{content:"→"}
+.zs .blk{padding-top:clamp(48px,7vw,80px);margin-top:clamp(48px,7vw,80px);border-top:1px solid var(--ln)}
+.zs .intro{font-size:clamp(1.35rem,2.6vw,2rem);font-weight:500;letter-spacing:-.03em;line-height:1.25;max-width:26em}
+.zs .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,64px);margin-top:36px}
+.zs .two .lead{font-size:clamp(1.25rem,2.2vw,1.7rem);font-weight:600;letter-spacing:-.03em;line-height:1.2}
+.zs .two .lead em{font-style:normal;color:#D2586B}
+.zs ol,.zs ul.l{list-style:none;margin:0;padding:0}
+.zs .recog{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px;margin-top:32px;border-top:1px solid var(--ln)}
+.zs .recog li{display:grid;grid-template-columns:2.6em minmax(0,1fr);padding:18px 0;border-bottom:1px solid var(--ln);font-size:1.08rem}
+.zs .recog b{color:#D2586B;font-weight:600;font-variant-numeric:tabular-nums}
+.zs .note{margin-top:24px;max-width:38em}
+.zs .tl{margin-top:32px;border-top:1px solid var(--ln)}
+.zs .tl li{display:grid;grid-template-columns:2.6em minmax(0,1fr) minmax(0,1.2fr);gap:8px 28px;padding:22px 0;border-bottom:1px solid var(--ln);align-items:baseline}
+.zs .tl .n{color:var(--soft);font-size:.9rem;font-variant-numeric:tabular-nums}
+.zs .tl strong{font-size:clamp(1.2rem,2vw,1.55rem);font-weight:600;letter-spacing:-.03em;line-height:1.15}
+.zs .tl p{color:var(--soft)}
+.zs .qs{margin-top:24px}
+.zs .qs li{padding:14px 0;border-bottom:1px solid var(--ln);font-size:clamp(1.1rem,1.8vw,1.35rem);font-weight:500;letter-spacing:-.02em}
+.zs .qs li::before{content:"— ";color:#D2586B}
+.zs .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:32px}
+.zs .card{border:1px solid var(--ln);border-radius:18px;padding:28px 24px;display:grid;gap:10px;align-content:start}
+.zs .card.w{background:var(--wine);border-color:var(--wine)}
+.zs .card.w p{color:rgba(243,237,228,.8)}
+.zs .card strong{font-size:1.25rem;font-weight:600;letter-spacing:-.02em;line-height:1.2}
+.zs .card p{color:var(--soft);font-size:.98rem}
+.zs .host{display:grid;grid-template-columns:minmax(0,.6fr) minmax(0,1.4fr);gap:clamp(24px,5vw,56px);align-items:center}
+.zs .host figure{margin:0;border-radius:18px;overflow:hidden}
+.zs .host figure img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:40% 25%}
+.zs .role{margin-top:10px;color:#D2586B;font-weight:500}
+.zs .host p.t{margin-top:16px;color:var(--soft)}
+.zs dl{margin:24px 0 0;border-top:1px solid var(--ln)}
+.zs dl div{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:12px;padding:15px 0;border-bottom:1px solid var(--ln)}
+.zs dt{color:var(--soft)}
+.zs dd{margin:0;font-weight:500}
+.zs dd.pr{font-size:1.3rem;font-weight:700;color:#D2586B}
+.zs .join{background:var(--wine);padding:clamp(36px,6vw,72px) clamp(24px,5vw,72px);display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(24px,5vw,64px);align-items:end}
+.zs .join ul.l{margin-top:20px;display:grid;gap:8px}
+.zs .join ul.l li{padding-left:26px;position:relative}
+.zs .join ul.l li::before{content:"";position:absolute;left:0;top:.75em;width:14px;height:1px;background:var(--milk)}
+.zs .join .open{font-size:clamp(1.3rem,2.3vw,1.8rem);font-weight:600;letter-spacing:-.03em;line-height:1.2}
+.zs .join .soft{color:rgba(243,237,228,.75);margin-top:12px}
+.zs .end{text-align:center}
+.zs .end h4{max-width:16em;margin:0 auto}
+.zs .end p{margin-top:20px;color:var(--soft);font-size:1.1rem}
+.groups .other{margin-top:20px}
+@media (max-width:820px){
+  .zs .top,.zs .two,.zs .host,.zs .join{grid-template-columns:minmax(0,1fr)}
+  .zs .top figure,.zs .host figure{max-width:360px}
+  .zs .recog,.zs .cards{grid-template-columns:minmax(0,1fr)}
+  .zs .tl li{grid-template-columns:2.2em minmax(0,1fr)}
+  .zs .tl p{grid-column:2}
+}
+@media (max-width:520px){.zs dl div{grid-template-columns:minmax(0,1fr);gap:2px}.zs{border-radius:22px}}
+
 /* cta */
 .cta{padding-block:150px 120px;overflow:hidden}
 .cta h2{font-size:clamp(2.8rem,7vw,5.4rem);font-weight:700;letter-spacing:-.05em}
@@ -312,7 +386,7 @@ footer a:hover{color:var(--fg)}
           <span class="kind">Групповая терапия</span>
           <b><span class="count" data-to="4500">4 500</span> ₽</b>
           <p>За встречу в группе «Живая сексуальность». О других группах расскажу в сообщениях.</p>
-          <a class="link" href="#groups">Смотреть группы</a>
+          <a class="link" href="#zhivaya-seksualnost">Подробнее о группе</a>
         </article>
       </div>
     </div>
@@ -354,11 +428,135 @@ footer a:hover{color:var(--fg)}
     <div class="wrap">
       <div class="center">
         <h2 class="rise">Групповая терапия</h2>
-        <p class="sub rise">Быть рядом с другими и оставаться собой. Очно или онлайн, о ближайшем наборе расскажу в сообщениях.</p>
+        <p class="sub rise">Быть рядом с другими и оставаться собой. Сейчас открыт набор в группу «Живая сексуальность».</p>
       </div>
-      <div class="tiles">
-        <article class="tile pop">
-          <div class="pic clip"><img src="img/inna-blazer.jpg" alt="Инна в чёрном жакете" width="732" height="818"></div>
+
+      <article class="zs pop" id="zhivaya-seksualnost">
+        <div class="in">
+          <div class="top">
+            <div>
+              <p class="lbl">Набор открыт · Терапевтическая группа для мужчин и женщин</p>
+              <h3 class="big"><span>Живая</span><span>сексуальность</span></h3>
+              <p class="words">Тело. Желания. Близость. Удовольствие.</p>
+              <ul class="facts"><li>Москва, центр</li><li>12 встреч</li><li>8–10 участников</li><li class="pr">4 500 ₽ за встречу</li></ul>
+              <a class="zbtn" href="https://t.me/ines_psy" target="_blank" rel="noopener">Записаться на предварительную беседу</a>
+            </div>
+            <figure><img src="img/inna-gloves.jpg" alt="Инна Полякова в чёрном платье и красных перчатках" width="492" height="629" loading="lazy"></figure>
+          </div>
+
+          <div class="blk">
+            <p class="intro">Насколько хорошо вы знаете собственные желания? Можете ли говорить о том, что вам нравится, чувствовать своё тело, проявлять инициативу и оставаться собой рядом с другим человеком?</p>
+            <div class="two">
+              <p class="lead">Сексуальность — это не только про секс. Это про <em>контакт с собой</em>, принятие своего тела, способность хотеть, выбирать, чувствовать и получать удовольствие.</p>
+              <p class="soft">«Живая сексуальность» — пространство для исследования себя, своих желаний и отношений с другими людьми.</p>
+            </div>
+          </div>
+
+          <div class="blk">
+            <h4>Возможно, вы узнаете себя</h4>
+            <ol class="recog">
+              <li><b>01</b><span>Вам сложно понять, чего вы действительно хотите.</span></li>
+              <li><b>02</b><span>Вы стесняетесь своего тела или собственной сексуальности.</span></li>
+              <li><b>03</b><span>Вам трудно говорить о желаниях и предпочтениях.</span></li>
+              <li><b>04</b><span>Вы часто подстраиваетесь под партнёра, забывая о себе.</span></li>
+              <li><b>05</b><span>Вы боитесь отказа, оценки или отвержения.</span></li>
+              <li><b>06</b><span>Вам непросто проявлять инициативу и доверять.</span></li>
+              <li><b>07</b><span>Вы замечаете повторяющиеся сценарии в отношениях.</span></li>
+              <li><b>08</b><span>Вам хочется больше чувственности, близости и удовольствия.</span></li>
+            </ol>
+            <p class="note soft">Необязательно приходить с конкретной проблемой. Иногда достаточно желания лучше понимать себя и исследовать свою сексуальность.</p>
+          </div>
+
+          <div class="blk">
+            <h4>Что будем исследовать?</h4>
+            <p class="soft" style="margin-top:12px">В течение 12 встреч мы будем работать с темами:</p>
+            <ol class="tl">
+              <li><span class="n">01</span><strong>Тело и принятие себя</strong><p>Как я воспринимаю себя и насколько свободно чувствую себя в собственном теле.</p></li>
+              <li><span class="n">02</span><strong>Желание и удовольствие</strong><p>Чего я хочу, как распознаю свои потребности и разрешаю себе получать удовольствие.</p></li>
+              <li><span class="n">03</span><strong>Стыд и внутренние запреты</strong><p>Что мешает проявляться, говорить о желаниях и принимать себя.</p></li>
+              <li><span class="n">04</span><strong>Самооценка и привлекательность</strong><p>Насколько моё ощущение собственной ценности зависит от чужого внимания.</p></li>
+              <li><span class="n">05</span><strong>Близость и доверие</strong><p>Как я строю отношения, открываюсь другому человеку и сохраняю контакт с собой.</p></li>
+              <li><span class="n">06</span><strong>Границы и инициатива</strong><p>Как говорить о своих желаниях, отказывать, просить и уважать другого.</p></li>
+              <li><span class="n">07</span><strong>Семейные сценарии</strong><p>Как прошлый опыт и усвоенные установки влияют на мою сегодняшнюю сексуальность.</p></li>
+            </ol>
+          </div>
+
+          <div class="blk two" style="margin-top:clamp(48px,7vw,80px)">
+            <div>
+              <h4>Почему именно группа?</h4>
+              <p class="soft" style="margin-top:18px">Иногда мы многое понимаем о себе, но продолжаем повторять привычные сценарии в отношениях.</p>
+              <p class="soft" style="margin-top:12px">В группе появляется возможность увидеть, как эти сценарии проявляются непосредственно в контакте с другими людьми.</p>
+            </div>
+            <div>
+              <ul class="l qs">
+                <li>Как я реагирую на внимание?</li>
+                <li>Легко ли мне говорить о себе?</li>
+                <li>Что происходит, когда я не нравлюсь кому-то или не получаю желаемого отклика?</li>
+                <li>Могу ли я проявлять интерес и при этом сохранять собственные границы?</li>
+              </ul>
+              <p class="soft" style="margin-top:18px">Группа становится пространством, где можно исследовать эти реакции, получать обратную связь и пробовать новые способы взаимодействия.</p>
+            </div>
+          </div>
+
+          <div class="blk">
+            <h4>Как проходит работа?</h4>
+            <p class="soft" style="margin-top:12px">Это не тренинг сексуальных техник и не лекционный курс.</p>
+            <div class="cards">
+              <div class="card"><strong>Обсуждения, упражнения, эксперименты</strong><p>Групповые обсуждения, терапевтические упражнения и эксперименты. В центре внимания — чувства, телесные ощущения, личный опыт и отношения между участниками.</p></div>
+              <div class="card"><strong>Смешанная группа</strong><p>Мужчины и женщины. Это позволяет исследовать не только собственную сексуальность, но и то, как мы строим контакт с людьми другого пола.</p></div>
+              <div class="card w"><strong>Участие добровольное</strong><p>Никто не обязан рассказывать интимные подробности или делать то, к чему не готов. Прикосновения и телесные практики возможны только при явном согласии.</p></div>
+            </div>
+            <p class="note soft">Группа не предназначена для знакомств и поиска сексуальных партнёров.</p>
+          </div>
+
+          <div class="blk host">
+            <figure><img src="img/inna-black.webp" alt="Портрет Инны Поляковой" width="853" height="1280" loading="lazy"></figure>
+            <div>
+              <p class="lbl">Ведущая группы</p>
+              <h4 style="margin-top:12px">Инна Полякова</h4>
+              <p class="role">Психолог · Гештальт-терапевт · Сексолог</p>
+              <p class="t">В своей работе я соединяю гештальт-подход и сексологическую перспективу. Исследую вместе с клиентами темы близости, сексуальности, самооценки, эмоциональной зависимости, личных границ и отношений.</p>
+              <p class="t">Мне важно создавать пространство, в котором можно говорить о сложном без осуждения и давления, лучше понимать себя и находить собственные способы строить отношения.</p>
+            </div>
+          </div>
+
+          <div class="blk">
+            <h4>Формат участия</h4>
+            <dl>
+              <div><dt>Формат</dt><dd>Очная закрытая группа</dd></div>
+              <div><dt>Где</dt><dd>Москва, центр</dd></div>
+              <div><dt>Участники</dt><dd>8–10 человек, мужчины и женщины</dd></div>
+              <div><dt>Встречи</dt><dd>12 еженедельных встреч</dd></div>
+              <div><dt>Продолжительность</dt><dd>2,5 часа</dd></div>
+              <div><dt>Стоимость</dt><dd class="pr">4 500 ₽ за встречу</dd></div>
+              <div><dt>Условие</dt><dd>Участие после предварительной индивидуальной беседы</dd></div>
+              <div><dt>День и время</dt><dd>Будут объявлены после утверждения расписания</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="join">
+          <div>
+            <h4>Как попасть в группу?</h4>
+            <p style="margin-top:16px">Перед вступлением проводится индивидуальная предварительная беседа. Мы:</p>
+            <ul class="l"><li>познакомимся;</li><li>обсудим ваш запрос и ожидания;</li><li>ответим на вопросы;</li><li>определим, подходит ли вам групповой формат.</li></ul>
+          </div>
+          <div>
+            <p class="open">Набор открыт. Начало работы — после формирования состава участников.</p>
+            <p class="soft">Беседа не обязывает вас вступать в группу.</p>
+            <a class="zbtn light" href="https://t.me/ines_psy" target="_blank" rel="noopener">Оставить заявку</a>
+          </div>
+        </div>
+
+        <div class="in end">
+          <h4>Живая сексуальность — это возможность лучше услышать себя.</h4>
+          <p>Свои желания. Своё тело. Свои границы. Свою способность быть в близости и получать удовольствие.</p>
+          <a class="zbtn" href="https://t.me/ines_psy" target="_blank" rel="noopener">Записаться на предварительную беседу</a>
+        </div>
+      </article>
+
+      <div class="tiles other">
+        <article class="tile wide pop">
           <div class="txt">
             <span class="kind">Очно или онлайн</span>
             <h3>Место для себя</h3>
@@ -366,16 +564,7 @@ footer a:hover{color:var(--fg)}
             <ul class="points"><li>Контакт с собой и другими</li><li>Способность занимать своё место</li><li>Обратная связь в бережных рамках</li></ul>
             <a class="link" href="https://t.me/ines_psy" target="_blank" rel="noopener">Узнать о группе</a>
           </div>
-        </article>
-        <article class="tile pop">
-          <div class="pic clip"><img src="img/inna-red.webp" alt="Инна Полякова" width="591" height="1042"></div>
-          <div class="txt">
-            <span class="kind">Набор открыт · Москва, центр</span>
-            <h3>Живая сексуальность</h3>
-            <p>Терапевтическая группа для мужчин и женщин. Тело, желания, близость, удовольствие.</p>
-            <ul class="points"><li>12 встреч · 8–10 участников</li><li>4 500 ₽ за встречу</li><li>Участие добровольное, всё только с согласия</li></ul>
-            <a class="link" href="/zhivaya-seksualnost/">Подробнее о группе</a>
-          </div>
+          <div class="pic clip"><img src="img/inna-blazer.jpg" alt="Инна в чёрном жакете" width="732" height="818"></div>
         </article>
       </div>
     </div>
